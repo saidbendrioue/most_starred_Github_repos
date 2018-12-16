@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tensorflow"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="332dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:text="Tensorflow kjdahddeedd daio zzdzdzdzdzdzdzdzeedzzzzzzzzzzzzzzzdzdzdzdzdzda ad a da idjfsjkfhjkshfjkshfjkshfjkhsjkhfjkshfjkhfjkhfjkhfsjf"
+        android:textSize="10dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/avatar"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/nill" />
+
+            <TextView
+                android:id="@+id/owner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="owner"
+                android:textSize="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_gravity="center"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/nill"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/star" />
+
+            <TextView
+                android:id="@+id/stars"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tensosrflow"
+                android:textSize="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
